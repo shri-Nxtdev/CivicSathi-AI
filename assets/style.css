@@ -1,0 +1,16 @@
+﻿:root { --navy:#102a56; --blue:#2563eb; --ink:#172b4d; --muted:#64748b; --line:#e5edf7; }
+.stApp { background: #f5f8fc; color:var(--ink); }
+[data-testid="stSidebar"] { background: linear-gradient(180deg,#102a56,#173d78); }
+[data-testid="stSidebar"] * { color:white !important; }
+.block-container { max-width:1180px; padding-top:2rem; padding-bottom:3rem; }
+h1,h2,h3 { color:#102a56; letter-spacing:-.025em; }
+.hero { padding:2rem 2.2rem; border-radius:22px; color:white; background:linear-gradient(120deg,#102a56,#2563eb); box-shadow:0 14px 35px #102a5624; margin-bottom:1.2rem; }
+.hero h1 { color:white; font-size:2.35rem; margin:0; }
+.hero p { color:#e2eaff; font-size:1.08rem; margin:.65rem 0 0; }
+.metric, .scheme-card, .info-card { background:white; border:1px solid var(--line); border-radius:16px; padding:1.2rem; box-shadow:0 5px 18px #153a6810; height:100%; }
+.metric strong { display:block; font-size:1.8rem; color:#2563eb; }
+.scheme-card h3,.info-card h3 { margin-top:0; }
+.tag { color:#1d4ed8; background:#eff6ff; border-radius:999px; padding:.25rem .65rem; font-size:.8rem; font-weight:600; }
+.notice { padding:.9rem 1rem; border-radius:12px; background:#eff6ff; border-left:4px solid #2563eb; }
+.stButton>button, .stLinkButton>a { border-radius:10px; font-weight:600; }
+footer { visibility:hidden; }
